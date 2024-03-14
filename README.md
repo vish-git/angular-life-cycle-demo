@@ -1,6 +1,5 @@
-# REF :
-
-https://angular.io/guide/lifecycle-hooks
+# Angular guide : 
+        https://angular.io/guide/lifecycle-hooks
 
 
 
