@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-lifecycle-hooks';
+  name: string | undefined;
+  showUserDetails: boolean;
+  btnText: string;
+  constructor() {
+    this.showUserDetails = false;
+    this.btnText = 'Show';
+  }
+
+  toggleUserDetails() {
+    this.showUserDetails = !this.showUserDetails;
+    this.btnText = this.showUserDetails ? 'Hide' : 'Show';
+
+  }
 }
